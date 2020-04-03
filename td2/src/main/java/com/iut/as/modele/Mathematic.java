@@ -12,7 +12,7 @@ import com.iut.as.interfaces.IMaths;
 public class Mathematic implements IMaths {
 
 	@Override
-	public int addition(Integer a, Integer b) {
+	public Integer addition(Integer a, Integer b) {
 		return a + b;
 	}
 
@@ -33,7 +33,7 @@ public class Mathematic implements IMaths {
 	}
 
 	@Override
-	public int multiplication(Integer a, Integer b) {
+	public Integer multiplication(Integer a, Integer b) {
 		// Utilisation standard :
 		// return a * b;
 
@@ -55,7 +55,7 @@ public class Mathematic implements IMaths {
 	}
 
 	@Override
-	public int soustraction(int a, int b) {
+	public Integer soustraction(Integer a, Integer b) {
 		return a - b;
 	}
 }
