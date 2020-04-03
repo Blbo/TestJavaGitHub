@@ -12,12 +12,12 @@ import com.iut.as.interfaces.IMaths;
 public class Mathematic implements IMaths {
 
 	@Override
-	public int addition(int a, int b) {
+	public int addition(Integer a, Integer b) {
 		return a + b;
 	}
 
 	@Override
-	public double division(Integer a, Integer b) {
+	public Double division(Integer a, Integer b) {
 		if (a == null || b == null) {
 			System.out.println("Un des opérateurs est nul !");
 			throw new MathematicException("Un des Operateurs est null");
@@ -33,18 +33,18 @@ public class Mathematic implements IMaths {
 	}
 
 	@Override
-	public int multiplication(int a, int b) {
+	public int multiplication(Integer a, Integer b) {
 		// Utilisation standard :
 		// return a * b;
 
 		// Utilisation de la méthode addition :
-		int ret = 0;
+		Integer ret = 0;
 		boolean signePositif = true;
 		if (a < 0) {
 			a = -a;
 			signePositif = false;
 		}
-		for (int i = 0; i < a; i++) {
+		for (Integer i = 0; i < a; i++) {
 			// ret += b;
 			ret = addition(ret, b);
 		}
