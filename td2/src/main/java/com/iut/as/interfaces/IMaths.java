@@ -12,3 +12,5 @@ public interface IMaths {
 
 	Integer multiplication(Integer a, Integer b);
 }
+
+// ceci est un comment.
