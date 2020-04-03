@@ -1,4 +1,5 @@
 package com.iut.as.interfaces;
+//Voici un commentaire
 
 public interface IMaths {
 
