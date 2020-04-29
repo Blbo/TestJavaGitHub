@@ -7,7 +7,7 @@ public class BanqueApplication {
 		
 		
 		System.out.println("................Compte 1....................");
-		Client client1= new Client( "56565", "katia"," Metz 57000"); 
+		Client client1= new Client( "56565", "katia","Metz 57000");
 		Compte compte1 = new Compte(); 	
 	    Bank b1=new Bank (compte1,client1);
 	    System.out.println("la consulation de solde avant le dépot et retrait  :" + b1.Consultation("56565"));
@@ -25,7 +25,7 @@ public class BanqueApplication {
 		System.out.println("..............Compte 2...................");
 
 	    Compte compte2= new Compte(); 
-	    Client client2= new Client( "1919", "arwa"," Metz 57000"); 
+	    Client client2= new Client( "1919", "arwa","Metz 57000");
 	    Bank b2=new Bank (compte2,client2 );
 	    System.out.println("la consulation de sole avant le dépot et retrait  :" + b2.Consultation("1919"));
 	    b2.depot("1919", "arwa",4000);
