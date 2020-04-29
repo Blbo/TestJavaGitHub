@@ -1,11 +1,15 @@
 package com.iut.as.modele;
+import com.iut.as.dao.ConnectionBDD;
+import java.sql.Connection;
 import java.util.*;
 
 public class BanqueApplication {
 
 	public static void main(String[] args) {
-		
-		
+
+
+		Connection connect = ConnectionBDD.getInstance();
+
 		System.out.println("................Compte 1....................");
 		Client client1= new Client( "56565", "katia","Metz 57000");
 		Compte compte1 = new Compte(); 	
