@@ -10,7 +10,7 @@ public class BanqueApplication {
 		Client client1= new Client( "56565", "katia"," Metz 57000"); 
 		Compte compte1 = new Compte(); 	
 	    Bank b1=new Bank (compte1,client1);
-	    System.out.println("la consulation de sole avant le dépot et retrait  :" + b1.Consultation("56565"));
+	    System.out.println("la consulation de solde avant le dépot et retrait  :" + b1.Consultation("56565"));
 	    b1.depot("56565", "katia",5000);
 	    System.out.println("consultation du solde après dépot :" + b1.Consultation("56565"));        		
 	    b1.retrait("56565", "katia",500);
