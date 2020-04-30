@@ -1,5 +1,6 @@
 package com.iut.as.modele;
-import java.util.*; 
+import java.util.*;
+/*test*/
 
 
 public class Bank {
@@ -23,7 +24,7 @@ public class Bank {
 
 
 	public void  retrait(String numClient,String nomClient, double montant) {
-		  		compte.solde-= montant;
+		  		compte.solde -= montant;
 		}
 	
 	
@@ -60,24 +61,5 @@ public class Bank {
 			return "Bank [compte=" + compte + ", client=" + client + "]";
 		}
 
-
-	 
-	
-	
-   
-	
-	
-	
-	
-	    
-	 
-
-
-	
-	 
-
-	
-	
-	
 }
 
