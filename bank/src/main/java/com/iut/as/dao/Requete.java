@@ -10,8 +10,8 @@ public class Requete {
         ResultSet resultat = null;
 
         try {
-            Connection laConnection = ConnectionBDD.getInstance();
-            Statement requete =  laConnection.createStatement();
+            Connection connect = ConnectionBDD.getInstance();
+            Statement requete =  connect.createStatement();
             resultat = requete.executeQuery(Req);
 
         }

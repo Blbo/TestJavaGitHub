@@ -16,23 +16,23 @@ public class Compte  {
 	}
 
 	
-	/*public Compte( double solde,String numCompte, double montant) {
+	public Compte( double solde,String numCompte, double montant) {
 		super();
 		this.solde=solde; 
 		this.numCompte=numCompte; 
 		this.montant=montant;
-	}*/
-	
-	
-	public Compte( double solde,String numCompte, double montant, CompteAvecDecouvert compDecouvert,CompteSansDecouvert compSansDecouvert) {
-		super();
-		this.solde=solde; 
-		this.numCompte=numCompte; 
-		this.montant=montant; 
-		
-		this.compDecouvert=compDecouvert; 
-		this.compSansDecouvert=compSansDecouvert; 
 	}
+	
+	
+//	public Compte( double solde,String numCompte, double montant, CompteAvecDecouvert compDecouvert,CompteSansDecouvert compSansDecouvert) {
+//		super();
+//		this.solde=solde;
+//		this.numCompte=numCompte;
+//		this.montant=montant;
+//
+//		this.compDecouvert=compDecouvert;
+//		this.compSansDecouvert=compSansDecouvert;
+//	}
 
 	public double getSolde() {
 		return solde;
