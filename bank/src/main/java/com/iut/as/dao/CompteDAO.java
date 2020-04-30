@@ -34,9 +34,9 @@ public class CompteDAO implements DAO<Compte> {
 
     @Override
     public void update(Compte compte, String[] params) {
-        compte.setSolde(Object.requireNonNull(params[0], "Le solde de compte ne peut etre null"));
+        /*compte.setSolde(Object.requireNonNull(params[0], "Le solde de compte ne peut etre null"));
         compte.setNumCompte(Object.requireNonNull(params[1], "Le numéro de compte ne peut etre null"));
-        compte.setMontant(Object.requireNonNull(params[2], "Le numéro de compte ne peut etre null"));
+        compte.setMontant(Object.requireNonNull(params[2], "Le numéro de compte ne peut etre null"));*/
     }
 
     @Override

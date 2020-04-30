@@ -32,11 +32,11 @@ public class ClientDAO  implements DAO<Client> {
 
     @Override
     public void update(Client client, String[] params) {
-        client.setNumClient(Object.requireNonNull(params[0], "Le numéro client ne peut etre null"));   //   Numero Client
+        /*client.setNumClient(Object.requireNonNull(params[0], "Le numéro client ne peut etre null"));   //   Numero Client
         client.setNomClient(Object.requireNonNull(params[1], "Le nom client ne peut etre null"));   // Nom du client
         client.setNom(Object.requireNonNull(params[2], "L'adresse client ne peut etre null"));    // Adresse
 
-        clients.add(client);
+        clients.add(client);*/
     }
 
     @Override
